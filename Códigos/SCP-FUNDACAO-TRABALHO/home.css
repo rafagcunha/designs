@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; font-size: 18px;
+    color: white;
+    line-height: 1.4;
+}
+body{
+    background-color: black;
+}
+body header nav{
+    margin: 0 auto;
+    width: 1150px;  
+    margin-top: 1em;
+}
+body header nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+body header nav ul li#logo{
+    margin-right: 2em;
+    margin-left: 2em; 
+}
+body header nav ul li.menu_elementos{
+    padding: 1em;
+    margin-top: 1.3em;
+    width: 100px;
+}
+body main{
+    margin-top: 2.5em;
+}
+body main section#confidencial{
+    background-color: #0f0f0f;
+    width: 1150px;
+    margin: 0 auto;
+    padding: 1.2em;
+    margin-bottom: 0.5em;
+}
+body main section#confidencial p{
+    text-align: center; 
+}
+body main section#confidencial p#aviso{
+    font-size: 22px; 
+    color: #b91212;
+}
+body main section#scp_universo{
+    background-color: #0f0f0f;
+    width: 1150px;
+    margin: 0 auto;
+    padding: 1.2em;
+}

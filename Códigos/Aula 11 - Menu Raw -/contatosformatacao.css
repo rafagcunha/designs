@@ -1,0 +1,36 @@
+body{ 
+    background-color:rgb(231, 227, 220);
+    /*background-image: url(fundo1.jpg);
+    background-attachment: fixed, scroll;*/
+    font-family: 'Garamond';
+    text-align: center;
+}
+h1 img{
+    margin-top: 55px;
+}     
+li{
+    list-style-type: none;
+ 
+}
+ul{
+    padding: 0;
+}
+ul li{
+    font-size: 25px;   
+    display: inline;   
+}
+li a{
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+}
+li a:hover{
+    /*background-color: #f8be24;*/
+    color: #ffa600;
+}
+ol{
+    margin-top: 50px;
+    font-style: italic;
+    font-size: 22px;
+}

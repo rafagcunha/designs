@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; font-size: 18px;
+    color: white;
+    line-height: 1.4;
+}
+body{
+    background-color: black;
+}
+body header nav{
+    margin: 0 auto;
+    width: 1150px;  
+    margin-top: 1em;
+}
+body header nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+body header nav ul li#logo{
+    margin-right: 2em;
+    margin-left: 2em; 
+}
+body header nav ul li.menu_elementos{
+    padding: 1em;
+    margin-top: 1.3em;
+    width: 100px;
+}
+body main{
+    margin-top: 2.5em;
+    margin-bottom: 4em;
+    text-align: center;
+}
+body main h1{
+    color: #b91212;
+    font-size: 24px;
+    background-color: #0f0f0f;
+    padding: 1.2em;
+    margin: 0 auto;
+    margin-bottom: 0.5em;
+    width: 1150px;
+    text-align: center;
+    font-weight: normal;
+}
+body main article p.descricoes{
+    background-color: #0f0f0f;
+    margin: 0 auto;
+    padding: 1.6em;
+    width: 1150px;
+}
+body main article section{
+    width: 1150px;
+    margin: 0 auto;
+    margin-top: 0.5em;
+    padding: 1.6em;
+    background-color: #0f0f0f;
+}
+body main article section h2{
+    margin-bottom: 1em;
+    color: #b91212;
+    font-weight: normal;
+}
+body main article#cartoes section p{
+    margin-bottom: 1em;
+    padding: 0.8em;
+}
+body main article#funcionarios{
+    margin-top: 0.5em;
+}
+body main article#funcionarios section p{
+    margin-bottom: 1em;
+    padding: 0.8em;
+}
+body main article#titulos{
+    margin-top: 0.5em;
+}
+body main article#titulos section p{
+    margin-bottom: 1em;
+    padding: 0.8em;
+}
+body main article#titulos h2.categorias{
+    margin-bottom: 1em;
+    color: #b91212;
+    font-weight: normal;
+    padding: 1.45em;
+    background-color: #0f0f0f;
+    width: 1150px;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-top: 0.5em;
+}
+body main article#titulos section#conselho_O5 img{
+    width: 700px;
+    border: 1px solid white;
+}
+

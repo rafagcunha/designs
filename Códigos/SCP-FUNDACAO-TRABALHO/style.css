@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; font-size: 18px;
+    color: white;
+}
+body{
+    background-color: black;
+    text-align: center;
+}
+body header h1{
+    margin-bottom: 3em;
+    margin-top: 1em;
+}
+body main form div{
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    margin-bottom: 1.5em;
+}
+body main form div label{
+    margin: 1em;
+}
+body main form div input{
+    background-color: black;
+    border: 1px solid white;
+    padding: 15px;
+    margin-top: 1em;
+}
+body main form input[type="submit"]{
+    background-color: black;
+    border: 1px solid white;
+    padding: 15px;
+    cursor: pointer; 
+}
